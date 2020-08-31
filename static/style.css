@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for logo  */
+#logo {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: 0px 14px;
+  margin-right: 30px;
+}
+
+/* Setting the size of the image  */
+#logo img {
+  height: 42px;
+  filter: invert(1);
+}
+
+#navbar {
+  background-color: #df5e64;
+  padding: 13px 30px;
+  font-family: "Lemonada", cursive;
+}
+#navbar ul {
+  /* This is used to set the panel of nav bar in row foramt in website  */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#navbar li {
+  list-style: none;
+}
+
+#navbar li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 13px 30px;
+}
+
+#navbar li a:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 50%;
+}
+
+/* Styling For the Intro Section is Here  */
+
+#introSection {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 32px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lemonada", cursive;
+  /* Setting the background in intro section  */
+  background: url("/static/bg.jpg") center center/cover no-repeat;
+
+  /* background-size: cover; */
+  background-position: 50% 54%;
+  background-attachment: fixed;
+  height: 424px;
+}
+
+#introSection div.small {
+  font-size: 1.7rem;
+}
+
+/* Styling for mission section is here  */
+
+#missionSection {
+  margin: auto;
+  height: 300px;
+  display: block;
+  width: 76%;
+}
+
+#missionSection h2 {
+  font-size: 42px;
+  text-align: center;
+  font-family: "Yeon Sung", cursive;
+  padding-top: 12px;
+}
+
+/* Styling for the cards Panel in Misson Section  */
+
+.card {
+  display: inline-block; /*This is used to set the cars at same row */
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 29%;
+  margin: 23px 24px;
+  height: 180px;
+}
+
+/* Styling for H3 in Card  */
+
+.card h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 12px;
+}
+
+.card-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img {
+  height: 115px;
+  padding: 0px 3px;
+  margin: 4px 12px;
+}
+
+.card-img img {
+  height: inherit;
+}
+
+.card-content {
+  padding: 0px 6px;
+}
+
+.card-content p {
+  font-size: 20px;
+}
+/* Styling for Sponsors Section is here  */
+#sponsorsSection {
+  height: 300px;
+  background-color: #f5a5a5;
+}
+
+#sponsorsSection h2 {
+  font-size: 42px;
+  text-align: center;
+  font-family: "Yeon Sung", cursive;
+  padding-top: 12px;
+}
+
+#sponsors {
+  height: 190px;
+  max-width: 1000px;
+  margin: 27px auto;
+}
+
+.spimg {
+  height: 80%;
+  margin: 20px;
+}
+
+#footerSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  height: 50px;
+
+  background-color: rgb(0, 0, 0);
+}

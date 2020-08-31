@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title Dance Stars
+    block scripts
+    block style
+    
+  body
+    nav#navbar
+          ul
+               div#logo 
+                  img(src="/static/img/logo.png", alt="Logo")
+                  | DS 
+               li #[a(href = "/") Home]
+               li #[a(href = "/") About]
+               li #[a(href = "/") Class Info]
+               li #[a(href = "/") Services]
+               li #[a(href = "/contact") Contact us ]
+    block content
+    footer#footerSection
+         | Copyright © 2020 DanceStars.com  , All Rights Reserved .  
+    
